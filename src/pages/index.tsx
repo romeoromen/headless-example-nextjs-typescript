@@ -24,6 +24,7 @@ export const Home:FC<{
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <PageHeader title="Recent Post" />
+      <div className="title">tailwindサンプルテキスト</div>
       <Divider />
       <PostArchives posts={posts} />
     </div>

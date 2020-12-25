@@ -5,6 +5,11 @@ import Link from 'next/link'
 import {BackTop, Layout, Menu} from 'antd'
 import 'antd/dist/antd.css'
 import '../styles/main.css'
+import 'tailwindcss/tailwind.css'
+
+export function reportWebVitals(metric) {
+  console.log(metric);
+}
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
   return (
